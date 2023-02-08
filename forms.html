@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>My Form</title>
+    </head>
+    <body>
+        <form name="myForm" action="processing.html" method="get">
+            <p>Username:
+            <input type="text" name="txtUserName" id="txtUserName" placeholder="Enter your name">
+            </p>
+            <p>Password
+                <input type="password" name="pwd" id="pwd" placeholder="Enter password">
+            </p>
+            <p>Gender
+                <input type="radio" name="gender" value="m">Male
+                <input type="radio" name="gender" value="f">Female
+                <input type="radio" name="gender" value="o">Others
+            </p>
+            <p>Skills
+                <input type="checkbox" name="skill" value="c++">C++
+                <input type="checkbox" name="skill" value="c">C
+                <input type="checkbox" name="skill" value="java">Java
+            </p>
+            <p>Qualification
+                <select name="qualification" id="dropDownQualification">
+                    <option value="inter">Intermediate</option>
+                    <option value="grad">Graduate</option>
+                    <option value="post-grad">Post-Graduate</option>
+                </select>
+            </p>
+        </form>
+    </body>
+</html>
