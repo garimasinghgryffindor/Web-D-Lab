@@ -1,0 +1,15 @@
+.sequel {
+    font-family: fantasy;
+    font-size: 17px;
+    font-style: italic;
+    margin-left: 4rem;
+    color: #946b2d;
+}
+
+#heading1 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 100%;
+    background-color: #0b304a;
+    color: aliceblue;
+}
