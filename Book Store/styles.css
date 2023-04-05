@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+}
+
+.table-header {
+    background-color: #60c034;
+}
+
+.nav {
+    background-color: bisque;
+}
+
+.content {
+
+}
+
+.logo {
+    height: 70px;
+}
+
+.table-header h1 {
+    color: rgb(3, 65, 13);
+    display: inline;
+    font-family: 'Arizonia', cursive;
+    background-color: yellow;
+}
+
+.table-header h2 {
+    color: aliceblue;
+    text-align: center;
+}
+
+.table-header .header {
+    display: flex;
+    justify-content: space-between;
+    /*margin-top: -80px;*/
+}
+
+.top-links {
+    display: flex;
+    justify-content: space-around;
+    /*margin-top: 100px;*/
+    padding-top: 120px;;
+}
+
+.top-links a{
+    font-size: 30px;
+    color: #153008;
+}
+
+.left-links {
+    display: flex;
+    flex-direction: column;
+}
+
+.left-links a{
+    font-size: 30px;
+    margin: 30px;
+}
